@@ -1,2 +1,42 @@
 Hello,
 In this module lets talk about Concurrency in java.
+
+Firstly, we talk about some of the basic terminologies on concurrent programming.
+
+
+Concurrency:
+-------------
+ 
+Concurrency means the ability to handle multiple tasks simultaneously. Imagine you can speak two distinct languages
+(X,Y) and you want to deliver a message to group of people in which some can understand X and some Y.
+You can switch between languages to deliver same message to both. In computer world the processor whether it 
+may be single core or multi core, the ability to handle multiple tasks running simultaneously or with overlapping 
+time periods is called concurrency.
+
+Parallelism:
+------------
+Parallelism is the subset of concurrency which means the execution of multiple tasks simultaneously. In the 
+above example you as a human cannot do the task i.e. delivering speech in both languages simultaneously but imagine a computer taking handling it. It can effectively play both audios at the same time.
+
+Processor:
+----------
+
+It is the central processing unit of a machine(computer, mobile, tablet...) which acts like a brain to that machine 
+helping in processing of tasks.
+processor might be of type single core or often multicore, whatever the feature is it's main functionality is 
+to do the given task. 
+A Core is single processing unit, so in a multicore CPU we have several single processing units effectively communicating with each other and distributing work for a faster execution of a task.
+
+Process:
+--------
+
+Any program or application that is running is called a process. A process has its own memory space and resources.
+Processes are independent on each other. 
+
+Thread:
+-------
+
+A thread is the smaller unit of execution within a process. A process may contain many threads performing different functions simultaneously to make that process faster. Threads share the memory and resources of 
+a process which helps in thread communication.
+
+
