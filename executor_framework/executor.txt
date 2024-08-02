@@ -1,0 +1,16 @@
+Executor:
+_________
+
+An executor is an object which executes a task submitted to it.
+Think of it like a shop owner who gives you the item you asked for.
+
+It is an interface which has only one method in it that takes Runnable 
+object.
+
+pubic interface Executor {
+
+   void execute(Runnable command);
+
+}
+
+
