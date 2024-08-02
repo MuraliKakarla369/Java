@@ -1,0 +1,18 @@
+Executor:
+_________
+
+An executor is an object which executes a task submitted to it.
+Think of it like a shop owner who gives you the item you asked for.
+
+It is an interface which has only one method in it that takes Runnable 
+object.
+
+pubic interface Executor {
+
+   void execute(Runnable command);
+
+}
+
+If you pass a null object a null pointer exception will occur and 
+if you pass a task that cannot be executed you will get a 
+RejectedExecutionException.

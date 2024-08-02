@@ -1,0 +1,10 @@
+ExecutorService:
+________________
+
+It is a sub-interface of the Executor which provides the methods to play 
+with tasks like termination and tracking progress.
+
+It contains methods like showdown() to stop executorService accept any 
+new tasks after processing the previously submitted tasks and 
+shutdownNow() method to force stop executorService. Overloaded sumbit() 
+methods to pass tasks and methods to check shutdown status and termination status
