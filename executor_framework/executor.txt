@@ -13,4 +13,6 @@ pubic interface Executor {
 
 }
 
-
+If you pass a null object a null pointer exception will occur and 
+if you pass a task that cannot be executed you will get a 
+RejectedExecutionException.
